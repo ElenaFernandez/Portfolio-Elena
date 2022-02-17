@@ -1,0 +1,18 @@
+@import '../core/variables.scss';
+
+.container {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: $background_header;
+  border-bottom: solid 2px $border_color;
+  color: $border_color;
+  
+}
+.subtitle:hover {
+  color: black;
+  border: 2px solid $border_color;
+  border-radius: 5px;
+}
