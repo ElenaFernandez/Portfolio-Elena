@@ -1,0 +1,21 @@
+@import '../core/variables.scss';
+
+.appPage {
+  background-image: url('https://sgame.dit.upm.es/pictures/5568.jpg?1597197784/');
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  padding-top: 70px;
+  grid-template-columns: 25% 25%;
+ 
+  
+   
+  &_image {
+    width: 200px;
+    height: 250px;
+    border: solid 2px $border_color;
+    border-radius: 50%;
+  }
+  
+ 
+}

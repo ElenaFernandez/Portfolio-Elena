@@ -1,4 +1,4 @@
-function Job(){
+function Project(){
     return(
         <div>
             Hola
@@ -6,4 +6,4 @@ function Job(){
     )
 }
 
-export default Job;
+export default Project;
